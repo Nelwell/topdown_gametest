@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topdown Adventure</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="game-container">
+      <canvas id="game" width="320" height="240"></canvas>
+      <section id="hud">
+        <div class="hud-row">
+          <div id="life"></div>
+          <div id="status"></div>
+        </div>
+        <div class="hud-row">
+          <div id="area-name"></div>
+          <div id="objective"></div>
+        </div>
+      </section>
+      <div id="controls">
+        <h2>Controls</h2>
+        <p>Move: Arrow Keys or WASD</p>
+        <p>Attack: J or Space</p>
+        <p>Interact/Save: K or Enter</p>
+        <p>Dash: Shift</p>
+      </div>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
